@@ -1,3 +1,4 @@
+import Loader from '@/components/shared/loader';
 import { Button } from '@/components/ui/button';
 import {
   Form,
@@ -8,7 +9,6 @@ import {
   FormMessage,
 } from '@/components/ui/form';
 import { Input } from '@/components/ui/input';
-import Loader from '@/components/ui/shared/loader';
 import { useToast } from '@/components/ui/use-toast';
 import { useUserContext } from '@/context/auth-context';
 import {

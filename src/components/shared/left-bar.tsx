@@ -4,7 +4,7 @@ import { useSignOutAccount } from '@/lib/react-query/queries-and-mutations';
 import { INavLink } from '@/types';
 import { useEffect } from 'react';
 import { Link, NavLink, useLocation, useNavigate } from 'react-router-dom';
-import { Button } from '../button';
+import { Button } from '../ui/button';
 
 const LeftSideBar = () => {
   const { mutate: signOut, isSuccess } = useSignOutAccount();
