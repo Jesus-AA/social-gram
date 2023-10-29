@@ -24,6 +24,7 @@ import { z } from 'zod';
 function SignUp() {
   const { toast } = useToast();
   const navigate = useNavigate();
+
   const { checkAuthUser, isLoading: isUserLoading } = useUserContext();
 
   const { mutateAsync: createUserAccount, isPending: isCreatingAccount } =
